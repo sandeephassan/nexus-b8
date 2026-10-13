@@ -143,6 +143,7 @@ useradd nexus
 step 12: Give the sudo access to nexus user
 
 visudo
+under root user
 nexus ALL=(ALL) NOPASSWD: ALL
 
 step 13: Change the owner and group permissions to /opt/nexus and /opt/sonatype-work directories.
